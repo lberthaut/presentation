@@ -1,13 +1,12 @@
 {
     "MAIN_DATAS":[
         {
-            "id": "lberthaut",
-                "userInfos":{
-                    "firstName": "Louis",
-                    "lastName": "Berthaut",
-                    "Birthday": "10-24-1988"
-                },
-            "socialmedia":"linkedinlink"
+            "firstName": "Louis",
+            "lastName": "Berthaut",
+            "birthday": "10-24-1988",
+            "location":"Marseille 04",
+            "socialmedia":"linkedinlink",
+            "mail":"louis.berthaut@gmx.com"
         }
     ],
     "PROFESSIONNAL_EXP":[
