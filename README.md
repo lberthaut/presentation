@@ -1,2 +1,0 @@
-# presentation
-Qui je suis
