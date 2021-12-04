@@ -6,13 +6,14 @@
             "birthday": "10-24-1988",
             "location":"Marseille 04",
             "socialmedia":"linkedinlink",
-            "mail":"louis.berthaut@gmx.com"
+            "mail":"louis.berthaut@gmx.com",
+            "cv":"pdfàjoindre"
         }
     ],
     "PROFESSIONNAL_EXP":[
         {
             "company":"Monoprix",
-            "job":"Sommelier (contrat de Professionnalisation)",
+            "job":"Vendeur-conseil en vin et spiriteux (contrat de Professionnalisation)",
             "duration":"2 ans",
             "location":"Marseille (13)",
             "skills":[
