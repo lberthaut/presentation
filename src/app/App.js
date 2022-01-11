@@ -1,15 +1,15 @@
-import Areaslide from '../components/professionnalareaslide.js';
-import Layout from '../components/userlayout.js';
-import Areaslidestyle from '../styles/areaslidestyle.js';
-import Layoutstyle from '../styles/layoutstyle.js'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "../pages/main";
+
 
 
 function App() {
   return (
-    <>
-<Layout/><Layoutstyle/>
-<Areaslide/><Areaslidestyle/>
-</>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Main/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -2,7 +2,7 @@
 
 export default class Usefetch {
     static async getUser() {
-      return fetch("datas.json")
+      return fetch("./datas.json")
         .then((result) => result.json())
         .then((data) => {
           return data.MAIN_DATAS;
@@ -10,7 +10,7 @@ export default class Usefetch {
     }
 
     static async getProfessionnalXp() {
-        return fetch("datas.json")
+        return fetch("./datas.json")
           .then((result) => result.json())
           .then((data) => {
             return data.PROFESSIONNAL_EXP;
@@ -18,7 +18,7 @@ export default class Usefetch {
       }
 
       static async getScolarPath() {
-        return fetch("datas.json")
+        return fetch("./datas.json")
           .then((result) => result.json())
           .then((data) => {
             return data.SCOLAR_PATH;
@@ -26,7 +26,7 @@ export default class Usefetch {
       }
 
       static async getHobbies() {
-        return fetch("datas.json")
+        return fetch("./datas.json")
           .then((result) => result.json())
           .then((data) => {
             return data.HOBBIES;

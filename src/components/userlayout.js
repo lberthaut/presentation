@@ -35,7 +35,6 @@ export default class Layout extends React.Component {
   }
 
   render() {
-    console.log(this.state.firstName);
 
     return (
       <div className="layout">
@@ -43,7 +42,12 @@ export default class Layout extends React.Component {
         <div className="userframe">
           <img src={portrait} alt="portrait personnel" className="portrait" />
         </div>
-        <h1 className="name">{this.state.firstName}</h1>
+        <h1 className="name">{this.state.lastName}</h1>
+        <p>{this.state.firstName}</p>
+        <p>{this.state.birthday}</p>
+        <p>{this.state.location}</p>
+        <p>{this.state.socialmedia}</p>
+        <p>{this.state.mail}</p>
       </div>
     );
   }

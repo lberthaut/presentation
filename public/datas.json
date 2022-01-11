@@ -1,15 +1,14 @@
 {
-    "MAIN_DATAS":[
+    "MAIN_DATAS":
         {
             "firstName": "Louis",
             "lastName": "Berthaut",
-            "birthday": "24-10-1988",
+            "birthday": "10-24-1988",
             "location":"Marseille 04",
             "socialmedia":"linkedinlink",
             "mail":"louis.berthaut@gmx.com",
             "cv":"pdfàjoindre"
-        }
-    ],
+        },
     "PROFESSIONNAL_EXP":[
         {
             "company":"Monoprix",
@@ -59,11 +58,6 @@
             "grade": "BTS Technico-Commercial Vins, Alcools, Spiritueux",
             "location": "Aubagne (13)",
             "obtention": "Niveau"
-        },
-        {
-            "grade": "Certificat OpenClassrooms Développeur Javascript React",
-            "location": "Marseille (13)",
-            "obtention": "Obtenu"
         }
     ],
     "HOBBIES":[

@@ -5,7 +5,7 @@ const Layoutstyle = createGlobalStyle`
 
     .layout{
         position: relative;
-        width: 25%;
+        width: 16%;
         position: fixed;
         bottom: 0;
         top: 0;
