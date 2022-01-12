@@ -1,6 +1,5 @@
 import React from "react";
 import portrait from "../assets/portrait.jpg";
-import background from "../assets/background.jpg";
 import Usefetch from "../services/fetchdatas";
 
 export default class Layout extends React.Component {
@@ -15,6 +14,7 @@ export default class Layout extends React.Component {
       mail: null,
       error: null,
     };
+    this.onClick = this.onClick.bind(this);
   }
 
   componentDidMount() {
@@ -33,21 +33,25 @@ export default class Layout extends React.Component {
         this.setState({ error: error });
       });
   }
+  onClick(){
+    window.location.href = `mailto:${this.state.mail}`;
+}
 
   render() {
 
     return (
       <div className="layout">
-        <img className="background" alt="background" src={background} />
         <div className="userframe">
           <img src={portrait} alt="portrait personnel" className="portrait" />
         </div>
         <h1 className="name">{this.state.lastName}</h1>
-        <p>{this.state.firstName}</p>
-        <p>{this.state.birthday}</p>
-        <p>{this.state.location}</p>
-        <p>{this.state.socialmedia}</p>
-        <p>{this.state.mail}</p>
+        <div className="informations">
+        <p className="infos">{this.state.firstName}</p>
+        <p className="infos">{this.state.location}</p>
+        <p className="infos">{this.state.birthday}</p>
+        <p className="infos">{this.state.socialmedia}</p>
+        <button className="mail" onClick={this.onClick}>E-mail</button>
+        </div>
       </div>
     );
   }

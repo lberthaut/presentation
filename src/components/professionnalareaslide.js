@@ -1,7 +1,7 @@
 import React from "react";
 import Usefetch from "../services/fetchdatas";
 
-export default class Areaslide extends React.Component {
+export default class ProAreaslide extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,14 +30,14 @@ export default class Areaslide extends React.Component {
         </h2>
         {this.state.datas.map(
           ({ company, job, duration, location, skills }) => (
-            <span>
+            <span className="exp">
               <h3 className="company">{company}</h3>
               <p className="duration">{duration}</p>
               <p className="job">{job}</p>
               <p className="location">{location}</p>
               <div className="skills">
-                {skills.map(({ e }) => (
-                  <p>{e}</p>
+              {skills.map((e) => (
+                  <p className="skill">{e}</p>
                 ))}
               </div>
             </span>

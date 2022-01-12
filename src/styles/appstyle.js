@@ -5,7 +5,7 @@ const Indexstyle = createGlobalStyle`
 
 Body{
     margin: 0;
-    font-family: Calibri;
+    font-family: sans-serif, system-ui;
 }
 
 #root{
