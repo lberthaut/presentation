@@ -1,17 +1,22 @@
 import { createGlobalStyle } from "styled-components";
 
-const ProAreaslidestyle = createGlobalStyle`
+const Proareaslidestyle = createGlobalStyle`
 
-    .expprotitle{
-        margin-left: 3%;
-        font-size: 16px;
-    }
+.pro_container{
+    animation: 2s ease-in-out forwards areaslide; 
+        z-index: -2;
+        margin-top: 3%;
+        background-color: white;
 
-    .container{
-        padding-left: 3%;
-        padding-bottom: 1%;
-        padding-right: 1%;
-    }
+        @keyframes areaslide {
+            from{
+                left: -80%;
+            }
+            to{
+                left: 11%;
+            }
+        }
+}
 
     .company{
         margin: 0;
@@ -32,6 +37,22 @@ const ProAreaslidestyle = createGlobalStyle`
         margin-bottom: 1%;
     }
 
+    .jobs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .job{
+        background: #d9edf7;
+        border-radius: 5px;
+        border: 2px solid #bde8f1;
+        padding: 0.3% 1% 0.3% 1%;
+        color: #377390;
+        margin: 0.5% 1% 0.5% 0%;
+    }
+
     .skills{
         background: #d9edf7;
         border-radius: 5px;
@@ -46,4 +67,4 @@ const ProAreaslidestyle = createGlobalStyle`
         margin: 0 auto;
     }
 `;
-export default ProAreaslidestyle;
+export default Proareaslidestyle;
