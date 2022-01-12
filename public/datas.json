@@ -52,18 +52,21 @@
     ],
     "SCOLAR_PATH":[
         {
-            "grade": "Bac STL CLPI (Sciences et Technologie de laboratoire, Chimie de laboratoire et des procédés Industriels)",
-            "location": "Lyon (69)",
+            "grade": "Certificat OpenClassrooms Développeur Javascript React",
+            "year": "2022",
+            "location": "Marseille (13)",
             "obtention": "Obtenu"
           },
           {
             "grade": "BTS Technico-Commercial Vins, Alcools, Spiritueux",
+            "year": "2011",
             "location": "Aubagne (13)",
             "obtention": "Niveau"
           },
           {
-            "grade": "Certificat OpenClassrooms Développeur Javascript React",
-            "location": "Marseille (13)",
+            "grade": "Bac STL CLPI (Sciences et Technologie de laboratoire, Chimie de laboratoire et des procédés Industriels)",
+            "year": "2008",
+            "location": "Lyon (69)",
             "obtention": "Obtenu"
           }
     ],

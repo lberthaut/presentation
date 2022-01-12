@@ -29,11 +29,12 @@ export default class Scolarareaslide extends React.Component {
           Parcours Scolaire
         </h2>
         {this.state.datas.map(
-          ({ grade, location, obtention}) => (
+          ({ grade, location, year, obtention}) => (
             <span className="scolarpath">
-              <p className="grade">{grade}</p>
-              <p className="location">{location}</p>
-              <p className="obtention">{obtention}</p>
+              <h3 className="grade lil_title">{grade}</h3>
+              <p className="year line_areas lil_years">{year}</p>
+              <p className="location line_areas">{location}</p>
+              <p className="obtention line_areas blue_background">{obtention}</p>
             </span>
           )
         )}

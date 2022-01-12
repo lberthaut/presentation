@@ -3,9 +3,8 @@ import { createGlobalStyle } from "styled-components";
 const Scolarareaslidestyle = createGlobalStyle`
 
 .scolar_container{
-    animation: 3s ease-in-out forwards areaslide; 
-        z-index: -2;
-        margin-top: 50%;
+    animation: 2s ease-in-out forwards areaslide; 
+        margin-top: 3%;
         background-color: white;
 
         @keyframes areaslide {
@@ -18,6 +17,10 @@ const Scolarareaslidestyle = createGlobalStyle`
         }
 }
 
+.obtention{
+    display: inline-block;
+    margin: 0;
+}
 `
 
 export default Scolarareaslidestyle

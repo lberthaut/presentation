@@ -29,15 +29,15 @@ export default class Proareaslide extends React.Component {
         {this.state.datas.map(
           ({ company, job, duration, location, skills }) => (
             <span className="exp">
-              <h3 className="company">{company}</h3>
-              <p className="duration">{duration}</p>
+              <h3 className="company lil_title">{company}</h3>
+              <p className="duration line_areas lil_years">{duration}</p>
               <div className="jobs">
               {job.map((j) => (
-                <p className="job">{j}</p> 
+                <p className="job line_areas blue_background">{j}</p> 
               ))}
               </div>
-              <p className="location">{location}</p>
-              <div className="skills">
+              <p className="location line_areas">{location}</p>
+              <div className="skills line_areas">
                 {skills.map((e) => (
                   <p className="skill">{e}</p>
                 ))}
