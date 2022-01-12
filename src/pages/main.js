@@ -6,14 +6,19 @@ import Areasslidestyle from "../styles/areasslidestyle.js";
 import Scolarareaslide from "../components/scolarareaslide.js";
 import Scolarareaslidestyle from "../styles/scolarareaslidestyle.js";
 import background from '../assets/background.png'
+import Hobbiesareaslide from "../components/hobbiesareaslide.js";
+import Hobbiesareaslidestyle from "../styles/hobbiesareaslidestyle.js";
 
 export default function Main() {
   return (
     <>
       <Layout /><Layoutstyle />
       <Areasslidestyle />
+      <div className="main_container">
       <Scolarareaslide/><Scolarareaslidestyle/>
       <Proareaslide /><Proareaslidestyle />
+      <Hobbiesareaslide/><Hobbiesareaslidestyle/>
+      </div>
       <img src={background} alt="background octopus" className="background"/>
     </>
   );

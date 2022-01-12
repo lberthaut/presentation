@@ -3,7 +3,7 @@
         {
             "firstName": "Louis",
             "lastName": "Berthaut",
-            "birthday": "10-24-1988",
+            "birthday": "10/24/1988",
             "location":"Marseille 04",
             "socialmedia":"linkedinlink",
             "mail":"louis.berthaut@gmx.com",
@@ -23,7 +23,7 @@
         {
             "company":"Auchan",
             "job":["Poissonnier"],
-            "duration":"4 ans",
+            "duration":"3 ans",
             "location":"Lyon (69), Marseille (13)",
             "skills":[
                 "Travail d'équipe",
@@ -41,11 +41,10 @@
                 "Agent de production industrielle",
                 "Préparateur de commande en entrepôt"
               ],
-            "duration":"3 ans",
+            "duration":"4 ans",
             "location":"Marseille (13), région Aixoise (13)",
             "skills":[
                 "Adaptabilité",
-                "Service Client",
                 "Gestion des inventaires"
             ]
         }

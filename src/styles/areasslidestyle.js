@@ -6,12 +6,11 @@ const Areasslidestyle = createGlobalStyle`
         width: 70%;
         box-shadow: -4px 0px 9px 1px rgba(0,0,0,0.75);
         border-radius: 5px;
-        position: absolute;
-        z-index: 10;
-        padding-left: 3%;
-        padding-bottom: 1%;
-        padding-right: 1%;
         opacity: 0.86;
+        padding: 0.1% 1% 1% 3%;
+        margin-top: 2%;
+        background-color: white;
+        position: relative;
     }
 
     .title{

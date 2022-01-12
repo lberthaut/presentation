@@ -1,9 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
-const Scolarareaslidestyle = createGlobalStyle`
+const Hobbiesareaslidestyle = createGlobalStyle`
 
-.scolar_container{
-    animation: 1s ease-in-out forwards areaslide; 
+.hobbies_container{
+    animation: 3s ease-in-out forwards areaslide; 
 }
 @keyframes areaslide {
             from{
@@ -13,11 +13,6 @@ const Scolarareaslidestyle = createGlobalStyle`
                 left: 12%;
             }
         }
-
-.obtention{
-    display: inline-block;
-    margin: 0;
-}
 `
 
-export default Scolarareaslidestyle
+export default Hobbiesareaslidestyle;

@@ -3,19 +3,16 @@ import { createGlobalStyle } from "styled-components";
 const Proareaslidestyle = createGlobalStyle`
 
 .pro_container{
-    animation: 3s ease-in-out forwards areaslide; 
-        margin-top: 31%;
-        background-color: white;
-
-        @keyframes areaslide {
+    animation: 2s ease-in-out forwards areaslide; 
+}
+@keyframes areaslide {
             from{
                 left: -80%;
             }
             to{
-                left: 11%;
+                left: 12%;
             }
         }
-}
 
     .jobs{
         display: flex;

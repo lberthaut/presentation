@@ -12,6 +12,13 @@ Body{
     margin: 0;
 }
 
+.main_container{
+    position: absolute;
+        z-index: 10;
+        width: 90%;
+        margin-left: 0.5%;
+}
+
 .background{
     transform: rotate(270deg);
     width: 50%;
