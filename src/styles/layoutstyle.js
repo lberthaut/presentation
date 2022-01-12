@@ -84,7 +84,12 @@ const Layoutstyle = createGlobalStyle`
             }
 }
 
-
+.octopus{
+    width: 95%;
+    height: 12%;
+    position: absolute;
+    bottom: 0;
+}
     
 `;
 

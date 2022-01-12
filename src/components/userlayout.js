@@ -1,6 +1,7 @@
 import React from "react";
 import portrait from "../assets/portrait.jpg";
 import Usefetch from "../services/fetchdatas";
+import octopus from '../assets/octopus.png'
 
 export default class Layout extends React.Component {
   constructor(props) {
@@ -52,6 +53,7 @@ export default class Layout extends React.Component {
         <p className="infos">{this.state.socialmedia}</p>
         <button className="mail" onClick={this.onClick}>E-mail</button>
         </div>
+        <img src={octopus} alt="decor" className="octopus"/>
       </div>
     );
   }
